@@ -8,7 +8,9 @@ using namespace std;
 using namespace sf;
 RenderWindow window(VideoMode(800, 800), L"Шахматы", Style::Default);
 string errorMessage = "";
+
 //получаем наше окно, в котором нужно изменить цвеt
+
 struct Point
 {
 	int x;
